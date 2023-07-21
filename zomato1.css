@@ -1,0 +1,790 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.image-container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.image-container .bg{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    position:absolute;
+    top:-100px;
+   z-index:-1;
+}
+.navbar {
+     color:white;
+     display:flex;
+     padding:10px;
+     justify-content:center;
+     align-items:center;
+     padding-left:800px;
+}
+.navbar li  {
+    padding:20px;
+    list-style-type:none;
+    text-decoration:none;
+    transition: 0.4s ease-in-out; 
+}
+.navbar li:hover{
+    color:blue;
+}
+.zomatoname{
+    height:150px;
+    padding-left:650px;
+    padding-top:80px; 
+}
+.para1{
+    color:white;
+    font-family:serif;
+    font-size:24px;
+    line-height:40px;
+    padding-left:480px;
+    padding-top:25px;
+    letter-spacing:2px;
+    font-weight:-70px;
+}   
+span{
+    padding-left:110px;
+} 
+
+.heading1{
+    font-family:'Segoe UI';
+    font-size:30px;
+    padding-left:100px;
+    word-spacing: 7px;
+    margin-top:190px;
+    margin-left:400px;
+}
+.heading1 img{
+    height:40px;
+    width:60px;
+    filter:opacity(50px);
+}
+.para2{
+    font-weight:-70px;
+    font-size:23px;
+    word-spacing:12px;
+    margin-top:40px;
+    margin-left:200px;
+    font-family:serif;
+    line-height:40px;
+    color:gray;  
+}
+.Lb2{
+    margin-left:150px;
+}
+.restaurants{
+     margin-top:70px;
+     line-height:60px;
+     padding-left:100px;
+}
+.ag{
+    height:50px;
+    width:220px;
+    padding-right:60px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:30px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ag:hover{
+    background-color:lightgray;
+}
+.mum{
+    height:50px;
+    width:220px;
+    padding-right:60px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+   margin-left:180px;
+   transform:0.5s ease-in-out;
+   box-shadow: 1px 1px 1px 1px gray;
+}
+.mum:hover{
+    background-color:lightgray;
+}
+.ajm{
+    height:50px;
+    width:220px;
+    padding-right:60px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ajm:hover{
+    background-color:lightgray;
+}
+.alz{
+    height:50px;
+    width:220px;
+    padding-right:60px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:30px;
+    margin-top:80px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.alz:hover{
+    background-color:lightgray;
+}
+.all{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.all:hover{
+    background-color:lightgray;
+}
+.amar{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.amar:hover{
+    background-color:lightgray;
+}
+.beng{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:30px;
+    margin-top:80px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.beng:hover{
+    background-color:lightgray;
+}
+.chen{
+    height:50px;
+    width:220px;
+    padding-right:60px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.chen:hover{
+    background-color:lightgray;
+}
+.cbe{
+    height:60px;
+    width:220px;
+    padding-right:40px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.cbe:hover{
+    background-color:lightgray;
+}
+.thr{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:30px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.thr:hover{
+    background-color:lightgray;
+}
+.del{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.del:hover{
+    background-color:lightgray;
+}
+.pun{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.pun:hover{
+    background-color:lightgray;
+}
+
+.heading2{
+    font-size:40px;
+    font-family:sans-serif;
+    margin-top:60px;
+    font-weight:bold;
+}
+
+
+.ind{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    padding-bottom:30px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:140px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ind:hover{
+    background-color:lightgray;
+}
+.ind img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.aus{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.aus:hover{
+    background-color:lightgray;
+}
+.aus img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.br{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.br:hover{
+    background-color:lightgray;
+}
+.br img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.ca{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:140px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ca:hover{
+    background-color:lightgray;
+}
+.ca img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.ch{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ch:hover{
+    background-color:lightgray;
+}
+.ch img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.indo{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.indo:hover{
+    background-color:lightgray;
+}
+.indo img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.ire{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:140px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.ire:hover{
+    background-color:lightgray;
+}
+.ire img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.it{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.it:hover{
+    background-color:lightgray;
+}
+.it img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.mal{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.mal:hover{
+    background-color:lightgray;
+}
+.mal img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.newz{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:140px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.newz:hover{
+    background-color:lightgray;
+}
+.newz img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.pol{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.pol:hover{
+    background-color:lightgray;
+}
+.pol img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.qa{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.qa:hover{
+    background-color:lightgray;
+}
+.qa img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.sing{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-top:80px;
+    margin-left:140px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.sing:hover{
+    background-color:lightgray;
+}
+.sing img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.sa{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;  
+     font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:180px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.sa:hover{
+    background-color:lightgray;
+}
+.sa img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.us{
+    height:50px;
+    width:220px;
+    padding-right:50px;
+    font-weight:lighter;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium';
+    border: 0.5px solid gray;
+    border-bottom:2px solid gray;
+    border-radius:5px;
+    background:transparent;
+    margin-left:200px;
+    transform:0.5s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.us:hover{
+    background-color:lightgray;
+   
+}
+.us img{
+    height:40px;
+    width:50px;
+    padding-right:10px;
+    padding-top:10px;
+}
+footer{
+    height:100%;
+    width:100vw;
+    background-color:beige;
+    margin-top:60px;
+}
+.zomatoname2{
+    padding-top:30px;
+    padding-left:10px;
+}
+.rowbox{
+    display:flex;
+    margin-top:50px;
+    gap:100px;
+}
+.azo{
+    margin-left:20px; 
+}
+.info1 , .info2 , .info3 , .info4 , .info5{
+    margin-top:20px;
+}
+.heading3, .heading4, .heading5, .heading6, .heading7{
+    font-family:Arial;
+    font-weight:bold;
+}
+.info1 li, .info2 li, .info3 li, .info4 li, .info5 li{
+         list-style-type:none;
+         text-decoration:none;
+         line-height:26px;
+}
+.indbox img{
+    height:20px;
+    width:30px;
+    margin-right:10px;
+    margin-top:5px;
+}
+.cnt{
+    margin-top:-250px;
+    margin-left:1100px;
+    box-sizing:border-box;
+    line-height:30px;
+}
+.indbox{
+    height:40px;
+    width:120px;
+    border: 1px solid black;
+    border-radius:7px;
+    font-weight:bold;
+    font-size:16px;
+}
+.eng{
+    height:40px;
+    width:120px;
+    border: 1px solid black;
+    border-radius:7px;
+    font-weight:bold;
+    font-size:16px;
+    margin-left:10px;
+    
+}
+.sl{
+    padding-top:20px;
+    font-family:sans-serif;
+}
+.appstr img{
+    height:50px;
+    width:200px;
+    margin-top:-25px;
+}
+.gplay img{
+    height:50px;
+    width:200px;
+    margin-top:-20px;
+}
+.icons{
+     height:50px;
+     width:30px;
+     display:flex;
+     gap:30px;
+     margin-top:20px;
+}
+p{
+    margin-left:110px;
+    margin-top:10px;
+    font-family:system-ui;
+    font-size:14px;
+    display:inline-block;
+}
+.Lb3{
+    margin-left:320px;
+}
